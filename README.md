@@ -1,21 +1,21 @@
-# CoulombCalc
+# fmcfs
 
-CoulombCalc is a Python library designed for calculating Coulomb stress changes due to fluid injection in geophysical studies.
+fmcfs is a Python library designed for calculating Coulomb stress changes due to fluid injection in geophysical studies.
 
 ## Installation
 
-You can install CoulombCalc using pip:
+You can install fmcfs using pip:
 
 ```bash
-conda install maoye::fmcoulomb
+conda install maoye::fmcfs
 ```
 
 ## Usage
 
-Here's how you can calculate Coulomb stress using CoulombCalc:
+Here's how you can calculate Coulomb stress using fmcfs:
 
 ```python
-import fmcoulomb as fm
+import fmcfs as fm
 
 data = fm.get_poel("D:\CNresearch\Results\poel_results\mian\d001\inj\pp.t")
 print(data.shape)
@@ -23,7 +23,7 @@ print(data.shape)
 
 ## Features
 
-CoulombCalc provides:
+fmcfs provides:
 
 - Easy-to-use interface for calculating stress changes.
 - Support for various fault and source geometries.
@@ -47,4 +47,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Mao Ye - [@maoye](https://twitter.com/maoye) - maoye666@outlook.com
 
-Project Link: [https://github.com/maoye/fmcoulomb](https://github.com/maoye/coulomb)
+Project Link: [https://github.com/maoye/fmcfs](https://github.com/maoye/coulomb)
