@@ -1,0 +1,29 @@
+package:
+  name: fmcfs
+  version: "0.1.0"
+
+source:
+  path: .
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir"
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python >=3.11.8
+    - numpy >=1.26.4
+    - scipy >=1.12.0
+
+about:
+  home: "https://github.com/fumeng6"
+  license: "MIT"
+  summary: "A Python package for calculating Coulomb stress changes induced by fluid injection."
+
+
+extra:
+  recipe-maintainers:
+    - maoye
